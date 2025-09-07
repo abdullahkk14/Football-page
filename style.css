@@ -37,13 +37,13 @@ header {
 main {
     max-width: 800px;
     margin: 30px auto;
-    background: #fff;
+    background: #000000;
     padding: 20px;
     border-radius: 10px;
 }
 
 section h2 {
-    color: #ff9900;
+    color: #39FF14;
 }
 
 .team-profile, .player-profile {
@@ -51,7 +51,7 @@ section h2 {
     border-radius: 5px;
     margin-bottom: 20px;
     padding: 15px;
-    background: #fafafa;
+    background: #1B4332;
 }
 
 #scoreForm {
