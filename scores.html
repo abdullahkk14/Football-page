@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live Scores | Football News Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="teams.html">Teams</a>
+        <a href="players.html">Players</a>
+        <a href="scores.html" class="active">Live Scores</a>
+    </nav>
+    <header>
+        <h1>Live Scores</h1>
+    </header>
+    <main>
+        <section id="scores">
+            <h2>Enter Scores Manually</h2>
+            <form id="scoreForm">
+                <input type="text" id="match" placeholder="Match (e.g. Team A vs Team B)" required>
+                <input type="text" id="score" placeholder="Score (e.g. 2-1)" required>
+                <button type="submit">Add Score</button>
+            </form>
+            <ul id="scoreList">
+                <!-- Scores will appear here -->
+            </ul>
+            <hr>
+            <p><em>Want automatic live scores? Upgrade this page to use an API!</em></p>
+        </section>
+    </main>
+</body>
+</html>

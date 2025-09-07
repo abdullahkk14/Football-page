@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #222;
+}
+
+nav {
+    background: #222;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a.active, nav a:hover {
+    color: #ff9900;
+}
+
+header {
+    background: #fff;
+    padding: 30px 0 10px 0;
+    text-align: center;
+    border-bottom: 2px solid #ff9900;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #ff9900;
+}
+
+.team-profile, .player-profile {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fafafa;
+}
+
+#scoreForm {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#scoreForm input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#scoreForm button {
+    padding: 8px 15px;
+    background: #ff9900;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#scoreForm button:hover {
+    background: #e67c00;
+}
+
+#scoreList {
+    list-style: none;
+    padding: 0;
+}
+
+#scoreList li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
