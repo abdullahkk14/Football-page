@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-    background: #222;
+    background: #000000;
     padding: 10px 0;
     text-align: center;
 }
@@ -24,10 +24,14 @@ nav a.active, nav a:hover {
 }
 
 header {
-    background: #fff;
-    padding: 30px 0 10px 0;
-    text-align: center;
-    border-bottom: 2px solid #ff9900;
+    header {
+  background: linear-gradient(to right, #006400, #228B22); /* green football field vibe */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+}
 }
 
 main {
